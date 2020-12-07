@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일 화면</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header" class="on">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="images/restaurant.png" alt="걍남 로고">
+                </a>
+            </h1>
+            <div class="srch">
+                <img src="images/search.png" alt="검색">
+            </div>
+            <div class="hbr">
+                <div class="hbr1"></div>
+                <div class="hbr2"></div>
+                <div class="hbr3"></div>
+                <!-- <img src="images/hamburger.png" alt="메뉴"> -->
+            </div>
+        </header>
+        <div class="gnb">
+            <div class="exit"></div>
+            <h3>Menu</h3>
+            <ul class="gnb-menu">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="list.html">맛집 랭킹</a></li>
+                <li><a href="chinese.html">중식</a></li>
+                <li><a href="western.html">양식</a></li>
+                <li><a href="korean.html">한식</a></li>
+                <li><a href="japanese.html">일식</a></li>
+            </ul>
+            <div class="contact-info">
+                <a href="sms:010-1234-5678">
+                    <img src="images/icon/texting.png" alt="">
+                    <span>Text</span>
+                </a>
+                <a href="mailto:google@gmail.com">
+                    <img src="images/icon/mail.png" alt="">
+                    <span>Email</span>
+                </a>
+                <a href="tel:02-1234-5678">
+                    <img src="images/icon/telephone.png" alt="">
+                    <span>Call</span>
+                </a>
+            </div>
+        </div>
+        <div class="srch__modal--layer">
+            <div class="srch__modal">
+                <div class="modal__close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="modal__input">
+                    <input type="text">
+                    <button type="submit">검색</button>
+                </div>
+                <div class="modal__ex">
+                    예시) 중식 양식 한식 일식
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div id="content" class="boardContent">
+                <div class="mini-top">
+                    <a href="#" class="prev"></a>
+                    <h3>FAQ</h3>
+                </div>
+                <div class="faq">
+                    <div class="top5q">
+                        <h4>자주 찾는 질문 <span>TOP 5</span></h4>
+                        <ul>
+                            <li class="quest">
+                                <a class="faq__quest" href="#">
+                                    <span>1</span>
+                                    <p>걍냠 데이터 출처는 어디인가요?</p>
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="answer">
+                                    <p>자료 출처는 공공데이터포털입니다. csv 파일을 JSON 형식으로
+                                        파싱 후 AJAX를 이용하여 불러왔습니다.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="quest">
+                                <a class="faq__quest" href="#">
+                                    <span>2</span>
+                                    <p>걍남은 어느 언어로 만들어졌나요?</p>
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="answer">
+                                    <p> HTML, CSS, Javascript를 활용했습니다.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="quest">
+                                <a class="faq__quest" href="#">
+                                    <span>3</span>
+                                    <p>세번째 질문을 입력해주세요.</p>
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="answer">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic animi cumque saepe
+                                        dignissimos sint nemo iure exercitationem quis perspiciatis ducimus, aut ad
+                                        doloribus ipsam assumenda molestias iusto eos ea? Quos?
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="quest">
+                                <a class="faq__quest" href="#">
+                                    <span>4</span>
+                                    <p>네번째 질문을 입력해주세요.</p>
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="answer">
+                                    <p>자료 출처는 공공데이터포털입니다. csv 파일을 JSON 형식으로
+                                        파싱 후 AJAX를 이용하여 불러왔습니다.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="quest">
+                                <a class="faq__quest" href="#">
+                                    <span>5</span>
+                                    <p>다섯번째 질문을 입력해주세요.</p>
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="answer">
+                                    <p>자료 출처는 공공데이터포털입니다. csv 파일을 JSON 형식으로
+                                        파싱 후 AJAX를 이용하여 불러왔습니다.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="personal-quest">
+                        <h4>1:1 문의</h4>
+                        <ul>
+                            <li>
+                                <a href="sms:010-1234-5678">
+                                    <p>
+                                        <img src="./images/chat.png" alt="">
+                                    </p>
+                                    <span>Text</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:google@gmail.com">
+                                    <p>
+                                        <img src="./images/email.png" alt="">
+                                    </p>
+                                    <span>Email</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:02-1234-5678">
+                                    <p>
+                                        <img src="./images/call.png" alt="">
+                                    </p>
+                                    <span>Call</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="quickMenu">
+            <a href="board.html">공지사항</a>
+            <a href="sitemap.html">전체서비스</a>
+            <a href="faq.html">FAQ</a>
+            <a href="login.html">로그인</a>
+        </div>
+
+        <footer id="footer">
+            <div class="copyright">
+                &copy; Gyang Nyang.
+
+            </div>
+        </footer>
+    </div>
+    <div id="onlyMobile">
+        <i class="fas fa-exclamation-triangle"></i>
+        <p>
+            이 사이트는 모바일 화면에서만 보입니다.<br/>
+            화면 크기를 줄여주세요!
+        </p>
+    </div>
+
+    <script src="./js/123.js"></script>
+    <script src="./js/qna.js"></script>
+</body>
+
+</html>

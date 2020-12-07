@@ -1,0 +1,161 @@
+<!-- https://www.data.go.kr/data/3076480/fileData.do -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일 화면</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header" class="on">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="images/restaurant.png" alt="걍남 로고">
+                </a>
+            </h1>
+            <div class="srch">
+                <img src="images/search.png" alt="검색">
+            </div>
+            <div class="hbr">
+                <div class="hbr1"></div>
+                <div class="hbr2"></div>
+                <div class="hbr3"></div>
+            </div>
+        </header>
+        <div class="gnb">
+            <div class="exit"></div>
+            <h3>Menu</h3>
+            <ul class="gnb-menu">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="list.html">맛집 랭킹</a></li>
+                <li><a href="chinese.html">중식</a></li>
+                <li><a href="western.html">양식</a></li>
+                <li><a href="korean.html">한식</a></li>
+                <li><a href="japanese.html">일식</a></li>
+            </ul>
+            <div class="contact-info">
+                <a href="sms:010-1234-5678">
+                    <img src="images/icon/texting.png" alt="">
+                    <span>Text</span>
+                </a>
+                <a href="mailto:google@gmail.com">
+                    <img src="images/icon/mail.png" alt="">
+                    <span>Email</span>
+                </a>
+                <a href="tel:02-1234-5678">
+                    <img src="images/icon/telephone.png" alt="">
+                    <span>Call</span>
+                </a>
+            </div>
+        </div>
+        <div class="srch__modal--layer">
+            <div class="srch__modal">
+                <div class="modal__close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="modal__input">
+                    <input type="text">
+                    <button type="submit">검색</button>
+                </div>
+                <div class="modal__ex">
+                    예시) 중식 양식 한식 일식
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div id="content" class="boardContent">
+                <div class="mini-top">
+                    <a href="#" class="prev"></a>
+                    <h3>일식</h3>
+                </div>
+                <div class="food-container">
+                    <div class="food-box">
+                        <div>
+                            <p><img src="./images/음식모음/japanese4.jpg" alt=""></p>
+                        </div>
+                        <div class="food-text">
+                            <div>이춘복참치 신논현</div>
+                            <span>반포동 748-12 지하1층, 지상1층 </span><br>
+                            <span>02-597-0027</span><br>
+                            <span>메인 메뉴 - 회코스 </span><br>
+                        </div>
+                    </div>
+                    <div class="food-box">
+                        <div>
+                            <p><img src="./images/음식모음/japanese3.jpg" alt=""></p>
+                        </div>
+                        <div class="food-text">
+                            <div>서래횟집</div>
+                            <span>반포동 104 - 2 1층</span><br>
+                            <span>02-532-1573</span><br>
+                            <span>메인 메뉴 - 회초밥 </span><br>
+                        </div>
+                    </div>
+                    <div class="food-box">
+                        <div>
+                            <p><img src="./images/음식모음/japanese5.jpg" alt=""></p>
+                        </div>
+                        <div class="food-text">
+                            <div>마구로센</div>
+                            <span>잠원동 22 - 5 지상1층 </span><br>
+                            <span>02-517-5110</span><br>
+                            <span>메인 메뉴 - 회정식 </span><br>
+                        </div>
+                    </div>
+                    <div class="food-box">
+                        <div>
+                            <p><img src="./images/음식모음/japanese2.jpg" alt=""></p>
+                        </div>
+                        <div class="food-text">
+                            <div>화담</div>
+                            <span>반포동 92 - 6 2층</span><br>
+                            <span>02-533-4443</span><br>
+                            <span>메인 메뉴 - 차돌박이숙주볶음 </span><br>
+                        </div>
+                    </div>
+                    <div class="food-box">
+                        <div>
+                            <p><img src="./images/음식모음/japanese1.jpg" alt=""></p>
+                        </div>
+                        <div class="food-text">
+                            <div>미나토</div>
+                            <span>방배동 935 - 2 1층</span><br>
+                            <span>02-525-5841</span><br>
+                            <span>메인 메뉴 - 정식 </span><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quickMenu">
+            <a href="board.html">공지사항</a>
+            <a href="sitemap.html">전체서비스</a>
+            <a href="faq.html">FAQ</a>
+            <a href="login.html">로그인</a>
+        </div>
+
+        <footer id="footer">
+            <div class="copyright">
+                &copy; Gyang Nyang.
+
+            </div>
+        </footer>
+    </div>
+    <div id="onlyMobile">
+        <i class="fas fa-exclamation-triangle"></i>
+        <p>
+            이 사이트는 모바일 화면에서만 보입니다.<br/>
+            화면 크기를 줄여주세요!
+        </p>
+    </div>
+    <script src="./js/123.js"></script>
+
+</body>
+
+</html>
